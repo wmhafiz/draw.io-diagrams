@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T00:59:58.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.9" etag="xDuLWabSLlqRh6nzR36a" type="github"><diagram id="J_qC31x_nETEuy9PoOLh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-20T01:14:04.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Dn5-zGCCdbYY_V4Wg5LJ" version="15.2.9" type="github">
+  <diagram id="J_qC31x_nETEuy9PoOLh" name="Page-1">
+    <mxGraphModel dx="1022" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-8" value="digital-sharing" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="830" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-2" target="Fh9dP1TOJLpwX-fyjULR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="40" width="60" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-3" target="Fh9dP1TOJLpwX-fyjULR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-3" value="sqs-poller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-5" target="Fh9dP1TOJLpwX-fyjULR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-5" value="Maps Download" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-9" target="Fh9dP1TOJLpwX-fyjULR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-9" target="Fh9dP1TOJLpwX-fyjULR-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-9" value="Download Spatial File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="ClipAssetData.py" link="ClipAssetData.py" id="Fh9dP1TOJLpwX-fyjULR-12">
+          <mxCell style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+            <mxGeometry x="375" y="260" width="60" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-22" value="if success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-14" target="Fh9dP1TOJLpwX-fyjULR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.94;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-14" target="Fh9dP1TOJLpwX-fyjULR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="144.25" width="60" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-17" value="save to automate API" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="685" y="260" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.06;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Fh9dP1TOJLpwX-fyjULR-19" target="Fh9dP1TOJLpwX-fyjULR-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-19" value="Upload Resulting Spatial Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fh9dP1TOJLpwX-fyjULR-23" value="Cleanup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
