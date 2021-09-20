@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-09-20T01:15:24.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.2.9" etag="EwPeDTrrE11LWcrRV6pz" type="github"><diagram id="w0M0Ed6jeSWAQ5rVN5Gx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-20T01:29:36.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="UoIE-Mf5hS3cV4QfOQi8" version="15.2.9" type="github">
+  <diagram id="w0M0Ed6jeSWAQ5rVN5Gx" name="Page-1">
+    <mxGraphModel dx="1022" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-1" value="map-service-publisher" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="30" width="830" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-3" target="iB0TZxBEaUD99VlJDaLk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket_with_objects;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="40" width="60" height="61.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-5" target="iB0TZxBEaUD99VlJDaLk-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-5" value="sqs-poller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-7" target="iB0TZxBEaUD99VlJDaLk-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-7" value="Maps Download" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-10" target="iB0TZxBEaUD99VlJDaLk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-10" value="Copy Publish File&lt;br&gt;(aprx &amp;amp; ags)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-11" target="iB0TZxBEaUD99VlJDaLk-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="PublishMapService.py" link="ClipAssetData.py" id="iB0TZxBEaUD99VlJDaLk-11">
+          <mxCell style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-128.png" vertex="1" parent="1">
+            <mxGeometry x="545" y="260" width="60" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-17" target="iB0TZxBEaUD99VlJDaLk-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="713.5999999999999" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-17" target="iB0TZxBEaUD99VlJDaLk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-17" value="Publish Map Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-18" value="Cleanup" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="150" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iB0TZxBEaUD99VlJDaLk-19" target="iB0TZxBEaUD99VlJDaLk-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-19" value="Update Config Group" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="692" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iB0TZxBEaUD99VlJDaLk-22" value="ArcGIS REST API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="265" width="150" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
